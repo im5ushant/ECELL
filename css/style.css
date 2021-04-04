@@ -8,7 +8,7 @@
 @import url("https://fonts.googleapis.com/css?family=Muli:200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap");
 /* line 5, ../../Arafath/CL/December/233. Startup/HTML/scss/theme-default.scss */
 body {
-  font-family: "Muli", sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-weight: normal;
   font-style: normal;
 }
@@ -889,14 +889,15 @@ h3 {
 /* line 14, ../../Arafath/CL/December/233. Startup/HTML/scss/_header.scss */
 .header-area .main-header-area {
   padding: 0 200px;
-  background-color: #1F1F1F;
+  background-color: white;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
 }
 
 @media (max-width: 767px) {
   /* line 14, ../../Arafath/CL/December/233. Startup/HTML/scss/_header.scss */
   .header-area .main-header-area {
     padding: 10px 10px;
-    background: #1F1F1F;
+    background: #3a3a3a;
   }
 }
 
@@ -962,12 +963,12 @@ h3 {
 
 /* line 57, ../../Arafath/CL/December/233. Startup/HTML/scss/_header.scss */
 .header-area .main-header-area .main-menu ul li a {
-  color: #fff;
+  color: #555555;
   font-size: 16px;
   text-transform: capitalize;
-  font-weight: 600;
+  font-weight: 800;
   display: inline-block;
-  padding: 40px 0;
+  padding: 20px 0;
   font-family: "Muli", sans-serif;
   position: relative;
 }
@@ -1147,8 +1148,8 @@ h3 {
   transform: translateY(70px);
   transition: transform 500ms ease, background 500ms ease;
   -webkit-transition: transform 500ms ease, background 500ms ease;
-  box-shadow: 0px 3px 16px 0px rgba(0, 0, 0, 0.1);
-  background: #1F1F1F;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  background-image: white;
 }
 
 /* line 165, ../../Arafath/CL/December/233. Startup/HTML/scss/_header.scss */
@@ -1158,7 +1159,7 @@ h3 {
 
 /* line 169, ../../Arafath/CL/December/233. Startup/HTML/scss/_header.scss */
 .header-area .main-header-area.sticky .main-menu ul li a {
-  color: #fff;
+  color: #555555;
 }
 
 /* line 176, ../../Arafath/CL/December/233. Startup/HTML/scss/_header.scss */
@@ -2201,7 +2202,7 @@ h3 {
 
 /* line 1, ../../Arafath/CL/December/233. Startup/HTML/scss/_bradcam.scss */
 .bradcam_bg_1 {
-  background-image: url(../img/arduino.jpg);
+  background-image: url(../img/banner/wave1.png);
 }
 
 /* line 4, ../../Arafath/CL/December/233. Startup/HTML/scss/_bradcam.scss */
@@ -2221,6 +2222,7 @@ h3 {
 
 /* line 13, ../../Arafath/CL/December/233. Startup/HTML/scss/_bradcam.scss */
 .bradcam_area {
+  top: 50px;
   background-size: cover;
   background-position: center;
   padding: 214px 0 92px 0;
@@ -2234,9 +2236,9 @@ h3 {
   position: absolute;
   left: 0;
   top: 0;
+  background-color: #5388b438;
   width: 100%;
   height: 100%;
-  background: #1F1F1F;
   opacity: .5;
   z-index: -1;
   content: '';
@@ -2252,7 +2254,7 @@ h3 {
 /* line 35, ../../Arafath/CL/December/233. Startup/HTML/scss/_bradcam.scss */
 .bradcam_area h3 {
   font-size: 78px;
-  color: #fff;
+  color: #555555;
   font-weight: 400;
   margin-bottom: 0;
   text-transform: capitalize;
@@ -3334,6 +3336,10 @@ h3 {
   margin-bottom: 0;
 }
 
+.owl-carousel-item{
+  padding: 15px;
+}
+
 /* line 2, ../../Arafath/CL/December/233. Startup/HTML/scss/_team.scss */
 .team_area {
   padding-top: 75px;
@@ -3363,7 +3369,14 @@ h3 {
 
 /* line 16, ../../Arafath/CL/December/233. Startup/HTML/scss/_team.scss */
 .team_area .single_team {
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px rgba(0,0,0,0.1);
   margin-bottom: 30px;
+  transition: box-shadow 200ms ease-in;
+}
+
+.team_area .single_team:hover{
+  box-shadow: 0px 0px 30px rgba(0,0,0,0.2);
 }
 
 /* line 18, ../../Arafath/CL/December/233. Startup/HTML/scss/_team.scss */
@@ -3378,9 +3391,9 @@ h3 {
 /* line 22, ../../Arafath/CL/December/233. Startup/HTML/scss/_team.scss */
 .team_area .single_team .team_thumb img {
   width: 100%;
-  -webkit-border-radius: 0px;
-  -moz-border-radius: 0px;
-  border-radius: 0px;
+  
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
 
 /* line 26, ../../Arafath/CL/December/233. Startup/HTML/scss/_team.scss */
@@ -3407,8 +3420,10 @@ h3 {
   position: absolute;
   left: 0;
   right: 0;
+  padding: 10px;
+  background-image: linear-gradient(to right, transparent , rgba(255, 255, 255, 0.6), transparent);
   margin: auto;
-  bottom: 20px;
+  bottom: 0px;
 }
 
 /* line 43, ../../Arafath/CL/December/233. Startup/HTML/scss/_team.scss */
@@ -3442,7 +3457,7 @@ h3 {
 
 /* line 68, ../../Arafath/CL/December/233. Startup/HTML/scss/_team.scss */
 .team_area .single_team .team_title {
-  padding-top: 28px;
+  padding: 10px;
 }
 
 /* line 70, ../../Arafath/CL/December/233. Startup/HTML/scss/_team.scss */

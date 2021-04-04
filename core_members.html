@@ -129,7 +129,8 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-4 col-md-6">
+                <div class="owl-carousel">
+                <div class="owl-carousel-item">
                     <div class="single_team wow fadeInUp" data-wow-duration="1s" data-wow-delay=".2s">
                         <div class="team_thumb">
                             <img src="img/team/1.png" alt="">
@@ -155,7 +156,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6">
+                <div class="owl-carousel-item">
                     <div class="single_team wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">
                         <div class="team_thumb">
                             <img src="img/team/2.png" alt="">
@@ -181,7 +182,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6">
+                <div class="owl-carousel-item">
                     <div class="single_team wow fadeInUp" data-wow-duration="1s" data-wow-delay=".6s">
                         <div class="team_thumb">
                             <img src="img/team/3.png" alt="">
@@ -209,7 +210,7 @@
                     </div>
                 </div>
 
-
+            </div>
             </div>
         </div>
     </div>
@@ -313,6 +314,11 @@
     <script src="js/mail-script.js"></script>
 
     <script src="js/main.js"></script>
+    <script>
+        $(document).ready(function() {
+            $(".owl-carousel").owlCarousel();
+        });
+    </script>
 </body>
 
 </html>
