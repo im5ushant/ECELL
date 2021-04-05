@@ -60,7 +60,7 @@ button {
 
 /* line 39, ../../Arafath/CL/December/233. Startup/HTML/scss/theme-default.scss */
 h1, h2, h3, h4, h5 {
-  font-family: "Roboto", sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   color: #1F1F1F;
 }
 
@@ -92,7 +92,7 @@ p {
   line-height: 28px;
   color: #727272;
   margin-bottom: 13px;
-  font-family: "Muli", sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 /* line 68, ../../Arafath/CL/December/233. Startup/HTML/scss/theme-default.scss */
@@ -315,28 +315,30 @@ h3 {
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
-  left: 50px;
+  /* left: 50px; */
   font-size: 15px;
   line-height: 40px;
   border: 1px solid #8E8B8B;
-  left: 150px;
+  /* left: 150px; */
 }
 
 /* line 250, ../../Arafath/CL/December/233. Startup/HTML/scss/theme-default.scss */
 .owl-carousel .owl-nav div.owl-next {
   left: auto;
-  right: 150px;
+  right: 0px;
 }
 
 /* line 255, ../../Arafath/CL/December/233. Startup/HTML/scss/theme-default.scss */
 .owl-carousel .owl-nav div.owl-next i {
   position: relative;
+  font-weight: 800;
   right: 0;
 }
 
 /* line 262, ../../Arafath/CL/December/233. Startup/HTML/scss/theme-default.scss */
 .owl-carousel .owl-nav div.owl-prev i {
   position: relative;
+  font-weight: 800;
   top: 0px;
 }
 
@@ -379,7 +381,7 @@ h3 {
   color: #131313;
   display: inline-block;
   padding: 14px 44px;
-  font-family: "Muli", sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-size: 16px;
   font-weight: 400;
   border: 0;
@@ -414,7 +416,7 @@ h3 {
   color: #fff;
   display: inline-block;
   padding: 12px 33px;
-  font-family: "Muli", sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-size: 16px;
   font-weight: 500;
   border: 0;
@@ -456,7 +458,7 @@ h3 {
   color: #fff;
   display: inline-block;
   padding: 14px 27px;
-  font-family: "Muli", sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-size: 16px;
   font-weight: 500;
   border: 0;
@@ -495,7 +497,7 @@ h3 {
   color: #fff;
   display: inline-block;
   padding: 13px 27px;
-  font-family: "Muli", sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-size: 14px;
   font-weight: 400;
   border: 0;
@@ -541,7 +543,7 @@ h3 {
   color: #026699 !important;
   display: inline-block;
   padding: 14px 31px;
-  font-family: "Muli", sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-size: 14px;
   font-weight: 400;
   border: 0;
@@ -582,7 +584,7 @@ h3 {
   color: #fff;
   display: inline-block;
   padding: 18px 24px;
-  font-family: "Muli", sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-size: 14px;
   font-weight: 400;
   border: 0;
@@ -661,18 +663,17 @@ h3 {
   text-transform: capitalize;
   margin-bottom: 19px;
   display: block;
-  font-family: "Roboto", sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 /* line 14, ../../Arafath/CL/December/233. Startup/HTML/scss/_section_title.scss */
 .section_title h3 {
-  font-size: 40px;
+  font-size: 24px;
   line-height: 52px;
-  font-weight: 400;
+  font-weight: 600;
   color: #1F1F1F;
   position: relative;
   z-index: 0;
-  padding-bottom: 15px;
 }
 
 @media (max-width: 767px) {
@@ -969,7 +970,7 @@ h3 {
   font-weight: 800;
   display: inline-block;
   padding: 20px 0;
-  font-family: "Muli", sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   position: relative;
 }
 
@@ -1185,7 +1186,7 @@ h3 {
   z-index: 0;
   padding: 0 0 12px 0;
   margin-right: 0px;
-  font-family: "Muli", sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 /* line 195, ../../Arafath/CL/December/233. Startup/HTML/scss/_header.scss */
@@ -1241,7 +1242,7 @@ h3 {
 /* line 27, ../../Arafath/CL/December/233. Startup/HTML/scss/_slider.scss */
 .slider_area .single_slider .slider_text h3 {
   color: #FFF;
-  font-family: "Roboto", sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-size: 50px;
   font-weight: 400;
   line-height: 84px;
@@ -2002,7 +2003,7 @@ h3 {
 /* line 103, ../../Arafath/CL/December/233. Startup/HTML/scss/_gallery.scss */
 .portfolio_details_area .portfolio_details_content p {
   font-size: 16px;
-  font-family: "Muli", sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   color: #727272;
   line-height: 28px;
 }
@@ -2258,7 +2259,7 @@ h3 {
   font-weight: 400;
   margin-bottom: 0;
   text-transform: capitalize;
-  font-family: "Roboto", sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 @media (max-width: 767px) {
@@ -2377,7 +2378,7 @@ h3 {
   cursor: pointer;
   display: block;
   float: left;
-  font-family: "Muli", sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-weight: normal;
   width: 100% !important;
   /* height: 42px; */
@@ -2625,7 +2626,7 @@ h3 {
   font-size: 16px;
   font-weight: 400;
   margin-bottom: 4px;
-  font-family: "Roboto", sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   color: #FFFFFF;
 }
 
@@ -2634,7 +2635,7 @@ h3 {
   font-size: 14px;
   font-weight: 400;
   color: #fff;
-  font-family: "Roboto", sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 /* line 61, ../../Arafath/CL/December/233. Startup/HTML/scss/_tesmonial.scss */
@@ -2977,7 +2978,7 @@ h3 {
   font-size: 14px;
   color: #026699;
   font-weight: 400;
-  font-family: "Roboto", sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 /* line 70, ../../Arafath/CL/December/233. Startup/HTML/scss/_portfolio.scss */
@@ -3337,28 +3338,26 @@ h3 {
 }
 
 .owl-carousel-item{
-  padding: 15px;
+  max-height: 518px;
+  padding: 24px;
 }
 
 /* line 2, ../../Arafath/CL/December/233. Startup/HTML/scss/_team.scss */
 .team_area {
-  padding-top: 75px;
-  padding-bottom: 122px;
+  padding-bottom: 25px;
 }
 
 @media (max-width: 767px) {
   /* line 2, ../../Arafath/CL/December/233. Startup/HTML/scss/_team.scss */
   .team_area {
-    padding-top: 50px;
-    padding-bottom: 20px;
+    padding-top: 0px;
   }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
   /* line 2, ../../Arafath/CL/December/233. Startup/HTML/scss/_team.scss */
   .team_area {
-    padding-top: 100px;
-    padding-bottom: 70px;
+    padding-bottom: 10px;
   }
 }
 
@@ -3371,7 +3370,6 @@ h3 {
 .team_area .single_team {
   border-radius: 10px;
   box-shadow: 0px 0px 20px rgba(0,0,0,0.1);
-  margin-bottom: 30px;
   transition: box-shadow 200ms ease-in;
 }
 
@@ -3457,25 +3455,25 @@ h3 {
 
 /* line 68, ../../Arafath/CL/December/233. Startup/HTML/scss/_team.scss */
 .team_area .single_team .team_title {
-  padding: 10px;
+  padding: 16px;
 }
 
 /* line 70, ../../Arafath/CL/December/233. Startup/HTML/scss/_team.scss */
 .team_area .single_team .team_title h3 {
-  font-size: 20px;
-  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   color: #1F1F1F;
   font-weight: 400;
-  margin-bottom: 7px;
+  margin-bottom: 0;
 }
 
 /* line 77, ../../Arafath/CL/December/233. Startup/HTML/scss/_team.scss */
 .team_area .single_team .team_title p {
-  font-size: 16px;
+  font-size: 14px;
   margin-bottom: 0;
   font-weight: 400;
   color: #707070;
-  font-family: "Muli", sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 /* line 86, ../../Arafath/CL/December/233. Startup/HTML/scss/_team.scss */
@@ -3511,7 +3509,7 @@ h3 {
   border-radius: 30px;
   padding: 20px 16px;
   margin-bottom: 25px;
-  font-family: "Roboto", sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-size: 14px;
   color: #000;
   font-weight: 400;
@@ -3521,7 +3519,7 @@ h3 {
 .get_in_tauch_area .touch_form .single_input input::placeholder, .get_in_tauch_area .touch_form .single_input textarea::placeholder {
   color: #707070;
   font-size: 14px;
-  font-family: "Roboto", sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-weight: 400;
 }
 
@@ -3637,7 +3635,7 @@ h3 {
 /* line 48, ../../Arafath/CL/December/233. Startup/HTML/scss/_work.scss */
 .how_we_work_area .work_info .section_title .mid_text {
   font-size: 18px;
-  font-family: "Muli", sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   color: #1F1F1F;
   font-weight: 400;
   margin-bottom: 25px;
@@ -3675,7 +3673,7 @@ h3 {
   font-size: 20px;
   color: #1F1F1F;
   font-weight: 400;
-  font-family: "Roboto", sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   margin-left: 20px;
 }
 
@@ -3706,7 +3704,7 @@ h3 {
   font-size: 24px;
   color: #026699;
   font-weight: 400;
-  font-family: "Roboto", sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 /* line 21, ../../Arafath/CL/December/233. Startup/HTML/scss/_mission.scss */
@@ -3773,12 +3771,12 @@ h3 {
   font-weight: 400;
   display: block;
   margin-bottom: 9px;
-  font-family: "Roboto", sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 /* line 37, ../../Arafath/CL/December/233. Startup/HTML/scss/_portfolio_details.scss */
 .portfolio_details_banner .details_info .details_links .single_details h4 {
-  font-family: "Roboto", sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-size: 16px;
   font-weight: 400;
   color: #fff;
