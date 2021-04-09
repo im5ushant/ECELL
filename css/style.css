@@ -8,7 +8,8 @@
 @import url("https://fonts.googleapis.com/css?family=Muli:200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap");
 /* line 5, ../../Arafath/CL/December/233. Startup/HTML/scss/theme-default.scss */
 body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-weight: normal;
   font-style: normal;
 }
@@ -33,7 +34,8 @@ a,
 
 /* line 20, ../../Arafath/CL/December/233. Startup/HTML/scss/theme-default.scss */
 a:focus,
-.button:focus, button:focus {
+.button:focus,
+button:focus {
   text-decoration: none;
   outline: none;
 }
@@ -54,14 +56,19 @@ a:hover,
 /* line 34, ../../Arafath/CL/December/233. Startup/HTML/scss/theme-default.scss */
 a,
 button {
-  color: #1F1F1F;
+  color: #1f1f1f;
   outline: medium none;
 }
 
 /* line 39, ../../Arafath/CL/December/233. Startup/HTML/scss/theme-default.scss */
-h1, h2, h3, h4, h5 {
-  font-family: "Roboto", sans-serif;
-  color: #1F1F1F;
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #1f1f1f;
 }
 
 /* line 43, ../../Arafath/CL/December/233. Startup/HTML/scss/theme-default.scss */
@@ -92,7 +99,8 @@ p {
   line-height: 28px;
   color: #727272;
   margin-bottom: 13px;
-  font-family: "Muli", sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 /* line 68, ../../Arafath/CL/December/233. Startup/HTML/scss/theme-default.scss */
@@ -209,13 +217,13 @@ h3 {
 .overlay::before {
   position: absolute;
   content: "";
-  background-color: #1F1F1F;
+  background-color: #cfcfcf;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
   z-index: -1;
-  opacity: .8;
+  opacity: 0.8;
 }
 
 /* line 160, ../../Arafath/CL/December/233. Startup/HTML/scss/theme-default.scss */
@@ -228,7 +236,7 @@ h3 {
 .overlay2::before {
   position: absolute;
   content: "";
-  background-color: #2C2C2C;
+  background-color: #2c2c2c;
   top: 0;
   left: 0;
   width: 100%;
@@ -250,9 +258,9 @@ h3 {
   height: 100%;
   left: 0;
   top: 0;
-  background: #2C2C2C;
-  opacity: .6;
-  content: '';
+  background: #2c2c2c;
+  opacity: 0.6;
+  content: "";
   z-index: -1;
 }
 
@@ -266,14 +274,32 @@ h3 {
 .bradcam_overlay::before {
   position: absolute;
   content: "";
-  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#5db2ff+0,7db9e8+100&1+24,0+96 */
-  background: -moz-linear-gradient(left, #5db2ff 0%, #65b4f9 24%, rgba(124, 185, 233, 0) 96%, rgba(125, 185, 232, 0) 100%);
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#026699+0,7db9e8+100&1+24,0+96 */
+  background: -moz-linear-gradient(
+    left,
+    #026699 0%,
+    #65b4f9 24%,
+    rgba(124, 185, 233, 0) 96%,
+    rgba(125, 185, 232, 0) 100%
+  );
   /* FF3.6-15 */
-  background: -webkit-linear-gradient(left, #5db2ff 0%, #65b4f9 24%, rgba(124, 185, 233, 0) 96%, rgba(125, 185, 232, 0) 100%);
+  background: -webkit-linear-gradient(
+    left,
+    #026699 0%,
+    #65b4f9 24%,
+    rgba(124, 185, 233, 0) 96%,
+    rgba(125, 185, 232, 0) 100%
+  );
   /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to right, #5db2ff 0%, #65b4f9 24%, rgba(124, 185, 233, 0) 96%, rgba(125, 185, 232, 0) 100%);
+  background: linear-gradient(
+    to right,
+    #026699 0%,
+    #65b4f9 24%,
+    rgba(124, 185, 233, 0) 96%,
+    rgba(125, 185, 232, 0) 100%
+  );
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5db2ff', endColorstr='#007db9e8',GradientType=1 );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#026699', endColorstr='#007db9e8',GradientType=1 );
   /* IE6-9 */
   top: 0;
   left: 0;
@@ -310,33 +336,35 @@ h3 {
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
   width: 40px;
-  color: #FFFFFF;
+  color: #ffffff;
   background-color: transparent;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
-  left: 50px;
+  /* left: 50px; */
   font-size: 15px;
   line-height: 40px;
-  border: 1px solid #8E8B8B;
-  left: 150px;
+  border: 1px solid #8e8b8b;
+  /* left: 150px; */
 }
 
 /* line 250, ../../Arafath/CL/December/233. Startup/HTML/scss/theme-default.scss */
 .owl-carousel .owl-nav div.owl-next {
   left: auto;
-  right: 150px;
+  right: 0px;
 }
 
 /* line 255, ../../Arafath/CL/December/233. Startup/HTML/scss/theme-default.scss */
 .owl-carousel .owl-nav div.owl-next i {
   position: relative;
+  font-weight: 800;
   right: 0;
 }
 
 /* line 262, ../../Arafath/CL/December/233. Startup/HTML/scss/theme-default.scss */
 .owl-carousel .owl-nav div.owl-prev i {
   position: relative;
+  font-weight: 800;
   top: 0px;
 }
 
@@ -379,7 +407,8 @@ h3 {
   color: #131313;
   display: inline-block;
   padding: 14px 44px;
-  font-family: "Muli", sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 16px;
   font-weight: 400;
   border: 0;
@@ -414,7 +443,8 @@ h3 {
   color: #fff;
   display: inline-block;
   padding: 12px 33px;
-  font-family: "Muli", sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 16px;
   font-weight: 500;
   border: 0;
@@ -456,7 +486,8 @@ h3 {
   color: #fff;
   display: inline-block;
   padding: 14px 27px;
-  font-family: "Muli", sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 16px;
   font-weight: 500;
   border: 0;
@@ -495,7 +526,8 @@ h3 {
   color: #fff;
   display: inline-block;
   padding: 13px 27px;
-  font-family: "Muli", sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 14px;
   font-weight: 400;
   border: 0;
@@ -516,7 +548,7 @@ h3 {
 
 /* line 106, ../../Arafath/CL/December/233. Startup/HTML/scss/_btn.scss */
 .boxed-btn3-white:hover {
-  background: #28AE61;
+  background: #28ae61;
   color: #fff !important;
   border: 1px solid transparent;
 }
@@ -541,7 +573,8 @@ h3 {
   color: #026699 !important;
   display: inline-block;
   padding: 14px 31px;
-  font-family: "Muli", sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 14px;
   font-weight: 400;
   border: 0;
@@ -582,7 +615,8 @@ h3 {
   color: #fff;
   display: inline-block;
   padding: 18px 24px;
-  font-family: "Muli", sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 14px;
   font-weight: 400;
   border: 0;
@@ -626,12 +660,12 @@ h3 {
 
 /* line 187, ../../Arafath/CL/December/233. Startup/HTML/scss/_btn.scss */
 .line-button:hover {
-  color: #009DFF;
+  color: #009dff;
 }
 
 /* line 190, ../../Arafath/CL/December/233. Startup/HTML/scss/_btn.scss */
 .line-button:hover::before {
-  background: #009DFF;
+  background: #009dff;
 }
 
 /* line 194, ../../Arafath/CL/December/233. Startup/HTML/scss/_btn.scss */
@@ -661,18 +695,18 @@ h3 {
   text-transform: capitalize;
   margin-bottom: 19px;
   display: block;
-  font-family: "Roboto", sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 /* line 14, ../../Arafath/CL/December/233. Startup/HTML/scss/_section_title.scss */
 .section_title h3 {
-  font-size: 40px;
+  font-size: 24px;
   line-height: 52px;
-  font-weight: 400;
-  color: #1F1F1F;
+  font-weight: 600;
+  color: #1f1f1f;
   position: relative;
   z-index: 0;
-  padding-bottom: 15px;
 }
 
 @media (max-width: 767px) {
@@ -784,12 +818,12 @@ h3 {
 /* line 28, ../../Arafath/CL/December/233. Startup/HTML/scss/_slick-nav.scss */
 .slicknav_menu .slicknav_nav a:hover {
   background: transparent;
-  color: #5DB2FF;
+  color: #026699;
 }
 
 /* line 32, ../../Arafath/CL/December/233. Startup/HTML/scss/_slick-nav.scss */
 .slicknav_menu .slicknav_nav a.active {
-  color: #5DB2FF;
+  color: #026699;
 }
 
 @media (max-width: 767px) {
@@ -849,17 +883,13 @@ h3 {
 .slicknav_btn {
   background-color: transparent;
   cursor: pointer;
-  margin-bottom: 10px;
   position: relative;
   z-index: 99;
   border: none;
   border-radius: 3px;
-  top: 5px;
   padding: 5px;
-  right: 0;
-  margin-top: -5px;
-  top: -29px;
   right: 5px;
+  top: -50px;
 }
 
 /* line 1, ../../Arafath/CL/December/233. Startup/HTML/scss/_header.scss */
@@ -897,7 +927,7 @@ h3 {
   /* line 14, ../../Arafath/CL/December/233. Startup/HTML/scss/_header.scss */
   .header-area .main-header-area {
     padding: 10px 10px;
-    background: #3a3a3a;
+    background: #ffffff;
   }
 }
 
@@ -905,7 +935,7 @@ h3 {
   /* line 14, ../../Arafath/CL/December/233. Startup/HTML/scss/_header.scss */
   .header-area .main-header-area {
     padding: 10px 10px;
-    background: #1F1F1F;
+    background: #ffffff;
   }
 }
 
@@ -928,10 +958,17 @@ h3 {
   text-align: left;
 }
 
+.header-area .main-header-area .logo-img img {
+  margin: 10px 0;
+}
+
 @media (max-width: 767px) {
   /* line 30, ../../Arafath/CL/December/233. Startup/HTML/scss/_header.scss */
   .header-area .main-header-area .logo-img {
     text-align: left;
+  }
+  .header-area .main-header-area .logo-img img {
+    width: 33%;
   }
 }
 
@@ -939,6 +976,9 @@ h3 {
   /* line 30, ../../Arafath/CL/December/233. Startup/HTML/scss/_header.scss */
   .header-area .main-header-area .logo-img {
     text-align: left;
+  }
+  .header-area .main-header-area .logo-img img {
+    width: 20%;
   }
 }
 
@@ -963,14 +1003,17 @@ h3 {
 
 /* line 57, ../../Arafath/CL/December/233. Startup/HTML/scss/_header.scss */
 .header-area .main-header-area .main-menu ul li a {
+  top: 0;
   color: #555555;
   font-size: 16px;
   text-transform: capitalize;
   font-weight: 800;
   display: inline-block;
   padding: 20px 0;
-  font-family: "Muli", sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   position: relative;
+  transition: all 200ms ease-in;
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
@@ -1007,14 +1050,15 @@ h3 {
 }
 
 /* line 85, ../../Arafath/CL/December/233. Startup/HTML/scss/_header.scss */
-.header-area .main-header-area .main-menu ul li a.active::before {
-  opacity: 1;
-  transform: scaleX(1);
+.header-area .main-header-area .main-menu ul li a.active {
+  color: #026699 !important;
+  filter: drop-shadow(0px 0px 10px #02679970);
 }
 
 /* line 90, ../../Arafath/CL/December/233. Startup/HTML/scss/_header.scss */
 .header-area .main-header-area .main-menu ul li a:hover {
-  color: #026699;
+  color: #026699 !important;
+  filter: drop-shadow(0px 0px 10px #02679970);
 }
 
 /* line 94, ../../Arafath/CL/December/233. Startup/HTML/scss/_header.scss */
@@ -1087,7 +1131,6 @@ h3 {
   -o-transition: 0.6s;
   transition: 0.6s;
 }
-
 
 /* line 106, ../../Arafath/CL/December/233. Startup/HTML/scss/_header.scss */
 .header-area .main-header-area .main-menu ul li .submenu2 li {
@@ -1185,7 +1228,8 @@ h3 {
   z-index: 0;
   padding: 0 0 12px 0;
   margin-right: 0px;
-  font-family: "Muli", sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 /* line 195, ../../Arafath/CL/December/233. Startup/HTML/scss/_header.scss */
@@ -1235,13 +1279,14 @@ h3 {
 
 /* line 23, ../../Arafath/CL/December/233. Startup/HTML/scss/_slider.scss */
 .slider_area .single_slider.about_banner.overlay::before {
-  opacity: .5;
+  opacity: 0.5;
 }
 
 /* line 27, ../../Arafath/CL/December/233. Startup/HTML/scss/_slider.scss */
 .slider_area .single_slider .slider_text h3 {
-  color: #FFF;
-  font-family: "Roboto", sans-serif;
+  color: #fff;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 50px;
   font-weight: 400;
   line-height: 84px;
@@ -1282,7 +1327,7 @@ h3 {
 .slider_area .single_slider .slider_text span {
   font-size: 30px;
   font-weight: 400;
-  color: #FFFFFF;
+  color: #ffffff;
   position: relative;
   z-index: 1;
 }
@@ -1293,7 +1338,7 @@ h3 {
   background: #fff;
   width: 50px;
   height: 2px;
-  content: '';
+  content: "";
   left: -67px;
   top: 50%;
   margin-bottom: -1px;
@@ -1385,7 +1430,7 @@ h3 {
   font-size: 46px;
   line-height: 60px;
   font-weight: 300;
-  color: #2C2C2C;
+  color: #2c2c2c;
 }
 
 @media (max-width: 767px) {
@@ -1476,7 +1521,7 @@ h3 {
   font-size: 46px;
   line-height: 60px;
   font-weight: 300;
-  color: #2C2C2C;
+  color: #2c2c2c;
 }
 
 @media (max-width: 767px) {
@@ -1571,7 +1616,7 @@ h3 {
   background-image: url(../img/ilstrator_img/check.svg);
   width: 16px;
   height: 16px;
-  content: '';
+  content: "";
   top: 50%;
   -webkit-transform: translateY(-50%);
   -moz-transform: translateY(-50%);
@@ -1604,7 +1649,7 @@ h3 {
 .productivity_area h3 {
   font-size: 46px;
   font-weight: 300;
-  color: #FFFFFF;
+  color: #ffffff;
   line-height: 60px;
 }
 
@@ -1672,7 +1717,7 @@ h3 {
 
 /* line 8, ../../Arafath/CL/December/233. Startup/HTML/scss/_counter.scss */
 .counter_area .single_counter {
-  border: 1px solid #E8E8E8;
+  border: 1px solid #e8e8e8;
   padding: 50px 0 43px 0;
   margin-bottom: 30px;
   -webkit-transition: 0.3s;
@@ -1709,7 +1754,7 @@ h3 {
 /* line 29, ../../Arafath/CL/December/233. Startup/HTML/scss/_counter.scss */
 .counter_area .single_counter p {
   font-size: 15px;
-  color: #001D38;
+  color: #001d38;
   font-weight: 400;
   margin-bottom: 0;
 }
@@ -1721,21 +1766,21 @@ h3 {
 
 /* line 1, ../../Arafath/CL/December/233. Startup/HTML/scss/_about.scss */
 .about_area {
-  background: #1F1F1F;
+  background: #1f1f1f;
   position: relative;
 }
 
 /* line 4, ../../Arafath/CL/December/233. Startup/HTML/scss/_about.scss */
 .about_area::before {
-  content: '';
-  background-color: #FFF;
+  content: "";
+  background-color: #fff;
   background-image: url(../img/about/logo1.jpg);
   left: 0;
   top: 0;
   height: 100%;
   width: 50%;
   z-index: 9;
-  
+
   background-size: contain;
   background-repeat: no-repeat;
   position: absolute;
@@ -1820,7 +1865,7 @@ h3 {
 
 /* line 58, ../../Arafath/CL/December/233. Startup/HTML/scss/_about.scss */
 .about_area .section_title .mid_text {
-  color: #C9C9C9;
+  color: #c9c9c9;
   font-size: 16px;
   font-weight: 400;
   margin-bottom: 14px;
@@ -1828,7 +1873,7 @@ h3 {
 
 /* line 64, ../../Arafath/CL/December/233. Startup/HTML/scss/_about.scss */
 .about_area .section_title .last_text {
-  color: #C9C9C9;
+  color: #c9c9c9;
   font-size: 18px;
   font-weight: 400;
   margin-bottom: 44px;
@@ -1976,7 +2021,7 @@ h3 {
 
 /* line 86, ../../Arafath/CL/December/233. Startup/HTML/scss/_gallery.scss */
 .portfolio_details_area .portfolio_details_content h3 {
-  color: #2C2C2C;
+  color: #2c2c2c;
   font-size: 36px;
   font-weight: 400;
   line-height: 55px;
@@ -1996,13 +2041,14 @@ h3 {
 .portfolio_details_area .portfolio_details_content h4 {
   font-size: 20px;
   font-weight: 400;
-  color: #2C2C2C;
+  color: #2c2c2c;
 }
 
 /* line 103, ../../Arafath/CL/December/233. Startup/HTML/scss/_gallery.scss */
 .portfolio_details_area .portfolio_details_content p {
   font-size: 16px;
-  font-family: "Muli", sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   color: #727272;
   line-height: 28px;
 }
@@ -2043,7 +2089,7 @@ h3 {
 .footer .footer_top {
   padding-top: 100px;
   padding-bottom: 160px;
-  background: #1F1F1F;
+  background-image: linear-gradient(to bottom right, #1567a9, #00437a 100%);
 }
 
 @media (max-width: 767px) {
@@ -2119,7 +2165,7 @@ h3 {
 /* line 51, ../../Arafath/CL/December/233. Startup/HTML/scss/_footer.scss */
 .footer .copy-right_text {
   padding-bottom: 25px;
-  background: #1F1F1F;
+  background: #1f1f1f;
 }
 
 /* line 54, ../../Arafath/CL/December/233. Startup/HTML/scss/_footer.scss */
@@ -2131,7 +2177,7 @@ h3 {
 /* line 58, ../../Arafath/CL/December/233. Startup/HTML/scss/_footer.scss */
 .footer .copy-right_text .copy_right {
   font-size: 15px;
-  color: #C9C9C9;
+  color: #c9c9c9;
   margin-bottom: 0;
   font-weight: 400;
 }
@@ -2187,9 +2233,9 @@ h3 {
   border-radius: 50%;
   line-height: 40px !important;
   margin-right: 7px;
-  color: #E7F9F9;
+  color: #e7f9f9;
   line-height: 40px !important;
-  border: 1px solid #E7F9F9;
+  border: 1px solid #e7f9f9;
   font-size: 14px;
 }
 
@@ -2239,9 +2285,9 @@ h3 {
   background-color: #5388b438;
   width: 100%;
   height: 100%;
-  opacity: .5;
+  opacity: 0.5;
   z-index: -1;
-  content: '';
+  content: "";
 }
 
 @media (max-width: 767px) {
@@ -2258,7 +2304,8 @@ h3 {
   font-weight: 400;
   margin-bottom: 0;
   text-transform: capitalize;
-  font-family: "Roboto", sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 @media (max-width: 767px) {
@@ -2302,7 +2349,7 @@ h3 {
 
 /* line 71, ../../Arafath/CL/December/233. Startup/HTML/scss/_bradcam.scss */
 .popup_box .popup_header {
-  background: #F5FBFF;
+  background: #f5fbff;
   padding: 28px 0;
   display: block;
 }
@@ -2311,7 +2358,7 @@ h3 {
 .popup_box .popup_header h3 {
   text-align: center;
   font-size: 20px;
-  color: #2C2C2C;
+  color: #2c2c2c;
   margin-bottom: 0;
   font-weight: 400;
 }
@@ -2326,7 +2373,7 @@ h3 {
   width: 100%;
   height: 50px;
   border: none;
-  border-bottom: 1px solid #C7C7C7;
+  border-bottom: 1px solid #c7c7c7;
   padding: 15px 0;
   margin-bottom: 20px;
 }
@@ -2347,7 +2394,7 @@ h3 {
   width: 100%;
   border: none;
   margin-top: 112px;
-  border-bottom: 1px solid #C7C7C7;
+  border-bottom: 1px solid #c7c7c7;
   padding: 15px 0;
   margin-bottom: 20px;
   height: 55px;
@@ -2371,13 +2418,14 @@ h3 {
   -webkit-tap-highlight-color: transparent;
   background-color: #fff;
   /* border-radius: 5px; */
-  border: solid 1px #E2E2E2;
+  border: solid 1px #e2e2e2;
   box-sizing: border-box;
   clear: both;
   cursor: pointer;
   display: block;
   float: left;
-  font-family: "Muli", sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-weight: normal;
   width: 100% !important;
   /* height: 42px; */
@@ -2472,12 +2520,12 @@ h3 {
   overflow: hidden;
   position: fixed;
   background: #000000;
-  opacity: .7;
+  opacity: 0.7;
 }
 
 /* line 1, ../../Arafath/CL/December/233. Startup/HTML/scss/_department.scss */
 .our_department_area {
-  background: #F5FBFF;
+  background: #f5fbff;
   padding-top: 120px;
   padding-bottom: 90px;
 }
@@ -2524,14 +2572,14 @@ h3 {
 /* line 23, ../../Arafath/CL/December/233. Startup/HTML/scss/_department.scss */
 .our_department_area .single_department .department_content h3 a {
   font-size: 22px;
-  color: #1F1F1F;
+  color: #1f1f1f;
   line-height: 33px;
   font-weight: 500;
 }
 
 /* line 28, ../../Arafath/CL/December/233. Startup/HTML/scss/_department.scss */
 .our_department_area .single_department .department_content h3 a:hover {
-  color: #5DB2FF;
+  color: #026699;
 }
 
 /* line 33, ../../Arafath/CL/December/233. Startup/HTML/scss/_department.scss */
@@ -2545,7 +2593,7 @@ h3 {
 
 /* line 40, ../../Arafath/CL/December/233. Startup/HTML/scss/_department.scss */
 .our_department_area .single_department .department_content a.learn_more {
-  color: #5DB2FF;
+  color: #026699;
   font-size: 16px;
 }
 
@@ -2565,10 +2613,10 @@ h3 {
 /* line 2, ../../Arafath/CL/December/233. Startup/HTML/scss/_tesmonial.scss */
 .testimonial_area {
   padding: 160px 0;
-  background-image: url(../img/testmonial/banner.png);
+  background-image: url(../img/dots.jpg);
+  background-repeat: repeat;
   position: relative;
   z-index: 0;
-  background-size: cover;
   background-position: center center;
 }
 
@@ -2580,9 +2628,8 @@ h3 {
   left: 0;
   top: 0;
   z-index: -1;
-  content: '';
-  background: #1F1F1F;
-  opacity: .6;
+  content: "";
+  opacity: 0.6;
 }
 
 @media (max-width: 767px) {
@@ -2594,9 +2641,9 @@ h3 {
 
 /* line 24, ../../Arafath/CL/December/233. Startup/HTML/scss/_tesmonial.scss */
 .testimonial_area .single_testmonial p {
-  color: #fff;
+  color: #777777;
   font-weight: 400;
-  font-size: 24px;
+  font-size: 18px;
   line-height: 32px;
   margin: 35px 0 25px 0;
 }
@@ -2610,8 +2657,8 @@ h3 {
 
 /* line 38, ../../Arafath/CL/December/233. Startup/HTML/scss/_tesmonial.scss */
 .testimonial_area .single_testmonial .testmonial_author .thumb {
-  width: 42px;
-  height: 42px;
+  width: 75px;
+  height: 75px;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
@@ -2621,26 +2668,27 @@ h3 {
 
 /* line 45, ../../Arafath/CL/December/233. Startup/HTML/scss/_tesmonial.scss */
 .testimonial_area .single_testmonial .testmonial_author h3 {
-  color: #fff;
-  font-size: 16px;
+  color: #777777;
+  font-size: 24px;
   font-weight: 400;
   margin-bottom: 4px;
-  font-family: "Roboto", sans-serif;
-  color: #FFFFFF;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 /* line 53, ../../Arafath/CL/December/233. Startup/HTML/scss/_tesmonial.scss */
 .testimonial_area .single_testmonial .testmonial_author span {
   font-size: 14px;
   font-weight: 400;
-  color: #fff;
-  font-family: "Roboto", sans-serif;
+  color: #777777;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 /* line 61, ../../Arafath/CL/December/233. Startup/HTML/scss/_tesmonial.scss */
 .testimonial_area .owl-carousel .owl-item img {
   display: inline-block;
-  width: auto;
+  width: 100%;
 }
 
 /* line 65, ../../Arafath/CL/December/233. Startup/HTML/scss/_tesmonial.scss */
@@ -2656,7 +2704,7 @@ h3 {
 
 /* line 1, ../../Arafath/CL/December/233. Startup/HTML/scss/_discuss.scss */
 .discuss_projects {
-  background: #001D38;
+  background: #001d38;
   padding: 150px 0 50px 0;
 }
 
@@ -2721,7 +2769,7 @@ h3 {
 /* line 11, ../../Arafath/CL/December/233. Startup/HTML/scss/_service.scss */
 .service_area .single_service {
   padding: 48px 35px 45px 35px;
-  border: 2px solid #E8E8E8;
+  border: 2px solid #e8e8e8;
   -webkit-transition: 0.3s;
   -moz-transition: 0.3s;
   -o-transition: 0.3s;
@@ -2743,7 +2791,7 @@ h3 {
 .service_area .single_service h3 {
   font-size: 24px;
   font-weight: 400;
-  color: #1F1F1F;
+  color: #1f1f1f;
   margin-top: 29px;
   margin-bottom: 13px;
 }
@@ -2838,7 +2886,7 @@ h3 {
   font-size: 30px;
   font-weight: 600;
   line-height: 42px;
-  color: #001D38;
+  color: #001d38;
 }
 
 @media (max-width: 767px) {
@@ -2977,12 +3025,13 @@ h3 {
   font-size: 14px;
   color: #026699;
   font-weight: 400;
-  font-family: "Roboto", sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 /* line 70, ../../Arafath/CL/December/233. Startup/HTML/scss/_portfolio.scss */
 .portfolio_image_area .single_Portfolio .portfolio_hover h3 {
-  color: #1F1F1F;
+  color: #1f1f1f;
   font-size: 24px;
   font-weight: 700;
   margin-top: 11px;
@@ -3043,7 +3092,7 @@ h3 {
 .expert_doctors_area .doctors_title h3 {
   font-size: 36px;
   font-weight: 500;
-  color: #1F1F1F;
+  color: #1f1f1f;
 }
 
 @media (max-width: 767px) {
@@ -3079,7 +3128,7 @@ h3 {
   -moz-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
-  background: #F5FBFF;
+  background: #f5fbff;
   padding-top: 16px;
   padding-bottom: 18px;
 }
@@ -3115,7 +3164,7 @@ h3 {
 
 /* line 55, ../../Arafath/CL/December/233. Startup/HTML/scss/_experts.scss */
 .expert_doctors_area .single_expert:hover .experts_name {
-  background: #5DB2FF;
+  background: #026699;
 }
 
 /* line 57, ../../Arafath/CL/December/233. Startup/HTML/scss/_experts.scss */
@@ -3145,7 +3194,7 @@ h3 {
   border-radius: 5px;
   font-size: 15px;
   line-height: 40px;
-  border: 1px solid #EEEEEE;
+  border: 1px solid #eeeeee;
   left: auto;
   left: auto;
   top: -100px;
@@ -3278,7 +3327,7 @@ h3 {
 
 /* line 29, ../../Arafath/CL/December/233. Startup/HTML/scss/_prising.scss */
 .prising_area .single_prising .prising_header {
-  background: #E9F4FE;
+  background: #e9f4fe;
   padding: 28px 35px;
 }
 
@@ -3293,28 +3342,28 @@ h3 {
 .prising_area .single_prising .prising_header span {
   font-size: 20px;
   font-weight: 500;
-  color: #0181F5;
+  color: #0181f5;
   line-height: 20px;
 }
 
 /* line 44, ../../Arafath/CL/December/233. Startup/HTML/scss/_prising.scss */
 .prising_area .single_prising .prising_header.green_header {
-  background: #E8FCF1;
+  background: #e8fcf1;
 }
 
 /* line 46, ../../Arafath/CL/December/233. Startup/HTML/scss/_prising.scss */
 .prising_area .single_prising .prising_header.green_header span {
-  color: #00D363;
+  color: #00d363;
 }
 
 /* line 50, ../../Arafath/CL/December/233. Startup/HTML/scss/_prising.scss */
 .prising_area .single_prising .prising_header.pink_header {
-  background: #FEF4EE;
+  background: #fef4ee;
 }
 
 /* line 52, ../../Arafath/CL/December/233. Startup/HTML/scss/_prising.scss */
 .prising_area .single_prising .prising_header.pink_header span {
-  color: #FDAE5C;
+  color: #fdae5c;
 }
 
 /* line 57, ../../Arafath/CL/December/233. Startup/HTML/scss/_prising.scss */
@@ -3336,29 +3385,46 @@ h3 {
   margin-bottom: 0;
 }
 
-.owl-carousel-item{
-  padding: 15px;
+.owl-carousel-item {
+  max-height: 518px;
+  padding: 24px;
 }
 
 /* line 2, ../../Arafath/CL/December/233. Startup/HTML/scss/_team.scss */
 .team_area {
-  padding-top: 75px;
-  padding-bottom: 122px;
+  padding: 25px;
+}
+
+.team_area.startup-area{
+  background-color: #edf2f7;
+  margin-top: 12%;
+  padding-bottom: 15%;
+}
+
+.startup-image{
+  background-image: linear-gradient(#026699, transparent), url(../img/startups/piltover.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 290px;
+  border-radius: 10px;
 }
 
 @media (max-width: 767px) {
   /* line 2, ../../Arafath/CL/December/233. Startup/HTML/scss/_team.scss */
   .team_area {
-    padding-top: 50px;
-    padding-bottom: 20px;
+    padding-top: 0px;
+  }
+
+  .team_area.startup-area{
+    margin-top: 12%;
+    padding-bottom: 15%;
   }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
   /* line 2, ../../Arafath/CL/December/233. Startup/HTML/scss/_team.scss */
   .team_area {
-    padding-top: 100px;
-    padding-bottom: 70px;
+    padding-bottom: 10px;
   }
 }
 
@@ -3370,13 +3436,12 @@ h3 {
 /* line 16, ../../Arafath/CL/December/233. Startup/HTML/scss/_team.scss */
 .team_area .single_team {
   border-radius: 10px;
-  box-shadow: 0px 0px 20px rgba(0,0,0,0.1);
-  margin-bottom: 30px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
   transition: box-shadow 200ms ease-in;
 }
 
-.team_area .single_team:hover{
-  box-shadow: 0px 0px 30px rgba(0,0,0,0.2);
+.team_area .single_team:hover {
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.2);
 }
 
 /* line 18, ../../Arafath/CL/December/233. Startup/HTML/scss/_team.scss */
@@ -3391,7 +3456,7 @@ h3 {
 /* line 22, ../../Arafath/CL/December/233. Startup/HTML/scss/_team.scss */
 .team_area .single_team .team_thumb img {
   width: 100%;
-  
+
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
@@ -3421,7 +3486,12 @@ h3 {
   left: 0;
   right: 0;
   padding: 10px;
-  background-image: linear-gradient(to right, transparent , rgba(255, 255, 255, 0.6), transparent);
+  background-image: linear-gradient(
+    to right,
+    transparent,
+    rgba(255, 255, 255, 0.6),
+    transparent
+  );
   margin: auto;
   bottom: 0px;
 }
@@ -3457,25 +3527,27 @@ h3 {
 
 /* line 68, ../../Arafath/CL/December/233. Startup/HTML/scss/_team.scss */
 .team_area .single_team .team_title {
-  padding: 10px;
+  padding: 16px;
 }
 
 /* line 70, ../../Arafath/CL/December/233. Startup/HTML/scss/_team.scss */
 .team_area .single_team .team_title h3 {
-  font-size: 20px;
-  font-family: "Roboto", sans-serif;
-  color: #1F1F1F;
+  font-size: 18px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #1f1f1f;
   font-weight: 400;
-  margin-bottom: 7px;
+  margin-bottom: 0;
 }
 
 /* line 77, ../../Arafath/CL/December/233. Startup/HTML/scss/_team.scss */
 .team_area .single_team .team_title p {
-  font-size: 16px;
+  font-size: 14px;
   margin-bottom: 0;
   font-weight: 400;
   color: #707070;
-  font-family: "Muli", sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 /* line 86, ../../Arafath/CL/December/233. Startup/HTML/scss/_team.scss */
@@ -3502,31 +3574,36 @@ h3 {
 }
 
 /* line 10, ../../Arafath/CL/December/233. Startup/HTML/scss/_getIn_tauch.scss */
-.get_in_tauch_area .touch_form .single_input input, .get_in_tauch_area .touch_form .single_input textarea {
+.get_in_tauch_area .touch_form .single_input input,
+.get_in_tauch_area .touch_form .single_input textarea {
   width: 100%;
-  border: 1px solid #C9C9C9;
+  border: 1px solid #c9c9c9;
   height: 50px;
   -webkit-border-radius: 30px;
   -moz-border-radius: 30px;
   border-radius: 30px;
   padding: 20px 16px;
   margin-bottom: 25px;
-  font-family: "Roboto", sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 14px;
   color: #000;
   font-weight: 400;
 }
 
 /* line 21, ../../Arafath/CL/December/233. Startup/HTML/scss/_getIn_tauch.scss */
-.get_in_tauch_area .touch_form .single_input input::placeholder, .get_in_tauch_area .touch_form .single_input textarea::placeholder {
+.get_in_tauch_area .touch_form .single_input input::placeholder,
+.get_in_tauch_area .touch_form .single_input textarea::placeholder {
   color: #707070;
   font-size: 14px;
-  font-family: "Roboto", sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-weight: 400;
 }
 
 /* line 27, ../../Arafath/CL/December/233. Startup/HTML/scss/_getIn_tauch.scss */
-.get_in_tauch_area .touch_form .single_input input:focus, .get_in_tauch_area .touch_form .single_input textarea:focus {
+.get_in_tauch_area .touch_form .single_input input:focus,
+.get_in_tauch_area .touch_form .single_input textarea:focus {
   outline: none;
 }
 
@@ -3586,7 +3663,7 @@ h3 {
 }
 
 /* line 21, ../../Arafath/CL/December/233. Startup/HTML/scss/_work.scss */
-.how_we_work_area::before {
+/* .how_we_work_area::before {
   position: absolute;
   content: '';
   width: 50%;
@@ -3599,18 +3676,31 @@ h3 {
   -webkit-border-radius: 20px 0 0 20px;
   -moz-border-radius: 20px 0 0 20px;
   border-radius: 20px 0 0 20px;
+} */
+
+.how_we_work_area .our_vision {
+  margin-top: 12%;
 }
+
 
 @media (max-width: 767px) {
   /* line 21, ../../Arafath/CL/December/233. Startup/HTML/scss/_work.scss */
-  .how_we_work_area::before {
+  .how_we_work_area .our_vision {
+    margin-top: 0%;
+  }
+
+  .how_we_work_area img {
     display: none;
   }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
   /* line 21, ../../Arafath/CL/December/233. Startup/HTML/scss/_work.scss */
-  .how_we_work_area::before {
+  .how_we_work_area .our_vision {
+    margin-top: 0%;
+  }
+
+  .how_we_work_area img {
     display: none;
   }
 }
@@ -3623,22 +3713,23 @@ h3 {
 @media (max-width: 767px) {
   /* line 39, ../../Arafath/CL/December/233. Startup/HTML/scss/_work.scss */
   .how_we_work_area .work_info {
-    padding: 80px 0;
+    padding: 40px 0;
   }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
   /* line 39, ../../Arafath/CL/December/233. Startup/HTML/scss/_work.scss */
   .how_we_work_area .work_info {
-    padding: 100px 0;
+    padding: 40px 0;
   }
 }
 
 /* line 48, ../../Arafath/CL/December/233. Startup/HTML/scss/_work.scss */
 .how_we_work_area .work_info .section_title .mid_text {
   font-size: 18px;
-  font-family: "Muli", sans-serif;
-  color: #1F1F1F;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #1f1f1f;
   font-weight: 400;
   margin-bottom: 25px;
 }
@@ -3673,9 +3764,10 @@ h3 {
 /* line 76, ../../Arafath/CL/December/233. Startup/HTML/scss/_work.scss */
 .how_we_work_area .work_info .video_watch span {
   font-size: 20px;
-  color: #1F1F1F;
+  color: #1f1f1f;
   font-weight: 400;
-  font-family: "Roboto", sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   margin-left: 20px;
 }
 
@@ -3706,7 +3798,8 @@ h3 {
   font-size: 24px;
   color: #026699;
   font-weight: 400;
-  font-family: "Roboto", sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 /* line 21, ../../Arafath/CL/December/233. Startup/HTML/scss/_mission.scss */
@@ -3722,7 +3815,7 @@ h3 {
 
 /* line 1, ../../Arafath/CL/December/233. Startup/HTML/scss/_portfolio_details.scss */
 .portfolio_details_banner {
-  background: #1F1F1F;
+  background: #1f1f1f;
   padding-top: 220px;
   padding-bottom: 470px;
 }
@@ -3768,43 +3861,71 @@ h3 {
 
 /* line 29, ../../Arafath/CL/December/233. Startup/HTML/scss/_portfolio_details.scss */
 .portfolio_details_banner .details_info .details_links .single_details span {
-  color: #C9C9C9;
+  color: #c9c9c9;
   font-size: 12px;
   font-weight: 400;
   display: block;
   margin-bottom: 9px;
-  font-family: "Roboto", sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 /* line 37, ../../Arafath/CL/December/233. Startup/HTML/scss/_portfolio_details.scss */
 .portfolio_details_banner .details_info .details_links .single_details h4 {
-  font-family: "Roboto", sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 16px;
   font-weight: 400;
   color: #fff;
 }
 
 /* line 45, ../../Arafath/CL/December/233. Startup/HTML/scss/_portfolio_details.scss */
-.portfolio_details_banner .details_info .details_links .single_details .social_links ul li {
+.portfolio_details_banner
+  .details_info
+  .details_links
+  .single_details
+  .social_links
+  ul
+  li {
   display: inline-block;
   margin-right: 21px;
 }
 
 @media (max-width: 767px) {
   /* line 45, ../../Arafath/CL/December/233. Startup/HTML/scss/_portfolio_details.scss */
-  .portfolio_details_banner .details_info .details_links .single_details .social_links ul li {
+  .portfolio_details_banner
+    .details_info
+    .details_links
+    .single_details
+    .social_links
+    ul
+    li {
     margin: 0 5px;
   }
 }
 
 /* line 51, ../../Arafath/CL/December/233. Startup/HTML/scss/_portfolio_details.scss */
-.portfolio_details_banner .details_info .details_links .single_details .social_links ul li a {
+.portfolio_details_banner
+  .details_info
+  .details_links
+  .single_details
+  .social_links
+  ul
+  li
+  a {
   color: #fff;
   font-size: 16px;
 }
 
 /* line 55, ../../Arafath/CL/December/233. Startup/HTML/scss/_portfolio_details.scss */
-.portfolio_details_banner .details_info .details_links .single_details .social_links ul li a:hover {
+.portfolio_details_banner
+  .details_info
+  .details_links
+  .single_details
+  .social_links
+  ul
+  li
+  a:hover {
   color: #026699;
 }
 
@@ -3878,7 +3999,8 @@ h3 {
 }
 
 /* line 16, ../../Arafath/CL/December/233. Startup/HTML/scss/_contact.scss */
-.contact-info__icon i, .contact-info__icon span {
+.contact-info__icon i,
+.contact-info__icon span {
   color: #8f9195;
   font-size: 27px;
 }
@@ -3908,7 +4030,7 @@ h3 {
   font-size: 27px;
   font-weight: 600;
   margin-bottom: 20px;
-  margin-left: .2em;
+  margin-left: 0.2em;
 }
 
 /* line 53, ../../Arafath/CL/December/233. Startup/HTML/scss/_contact.scss */
@@ -4126,7 +4248,7 @@ h6 {
   outline: none;
   line-height: 40px;
   padding: 0 30px;
-  font-size: .8em;
+  font-size: 0.8em;
   text-align: center;
   text-decoration: none;
   font-weight: 500;
@@ -4959,7 +5081,8 @@ h6 {
 
 /* line 798, ../../Arafath/CL/December/233. Startup/HTML/scss/_elements.scss */
 .primary-checkbox input:checked + label {
-  background: url(../img/elements/primary-check.png) no-repeat center center/cover;
+  background: url(../img/elements/primary-check.png) no-repeat center
+    center/cover;
   border: none;
 }
 
@@ -5001,7 +5124,8 @@ h6 {
 
 /* line 835, ../../Arafath/CL/December/233. Startup/HTML/scss/_elements.scss */
 .confirm-checkbox input:checked + label {
-  background: url(../img/elements/success-check.png) no-repeat center center/cover;
+  background: url(../img/elements/success-check.png) no-repeat center
+    center/cover;
   border: none;
 }
 
@@ -5049,7 +5173,8 @@ h6 {
 
 /* line 876, ../../Arafath/CL/December/233. Startup/HTML/scss/_elements.scss */
 .disabled-checkbox input:checked + label {
-  background: url(../img/elements/disabled-check.png) no-repeat center center/cover;
+  background: url(../img/elements/disabled-check.png) no-repeat center
+    center/cover;
   border: none;
 }
 
@@ -5091,7 +5216,8 @@ h6 {
 
 /* line 913, ../../Arafath/CL/December/233. Startup/HTML/scss/_elements.scss */
 .primary-radio input:checked + label {
-  background: url(../img/elements/primary-radio.png) no-repeat center center/cover;
+  background: url(../img/elements/primary-radio.png) no-repeat center
+    center/cover;
   border: none;
 }
 
@@ -5133,7 +5259,8 @@ h6 {
 
 /* line 950, ../../Arafath/CL/December/233. Startup/HTML/scss/_elements.scss */
 .confirm-radio input:checked + label {
-  background: url(../img/elements/success-radio.png) no-repeat center center/cover;
+  background: url(../img/elements/success-radio.png) no-repeat center
+    center/cover;
   border: none;
 }
 
@@ -5181,7 +5308,8 @@ h6 {
 
 /* line 991, ../../Arafath/CL/December/233. Startup/HTML/scss/_elements.scss */
 .disabled-radio input:checked + label {
-  background: url(../img/elements/disabled-radio.png) no-repeat center center/cover;
+  background: url(../img/elements/disabled-radio.png) no-repeat center
+    center/cover;
   border: none;
 }
 
@@ -5351,7 +5479,8 @@ h6 {
 }
 
 /* line 14, ../../Arafath/CL/December/233. Startup/HTML/scss/_blog.scss */
-.blog_area a:hover, .blog_area a :hover {
+.blog_area a:hover,
+.blog_area a :hover {
   background: -webkit-linear-gradient(131deg, #026699 0%, #026699 99%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -5379,7 +5508,7 @@ h6 {
 
 /* line 36, ../../Arafath/CL/December/233. Startup/HTML/scss/_blog.scss */
 .single-blog .thumb:after {
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
   top: 0;
@@ -5426,7 +5555,7 @@ h6 {
 
 /* line 84, ../../Arafath/CL/December/233. Startup/HTML/scss/_blog.scss */
 .single-blog .tag:after {
-  content: '';
+  content: "";
   position: absolute;
   width: 1px;
   height: 10px;
@@ -5485,7 +5614,7 @@ h6 {
 
 /* line 135, ../../Arafath/CL/December/233. Startup/HTML/scss/_blog.scss */
 .single-blog:hover .thumb:after {
-  opacity: .7;
+  opacity: 0.7;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
@@ -5994,6 +6123,12 @@ h6 {
   background: #fbf9ff;
   padding: 30px;
   margin-bottom: 30px;
+  border-radius: 10px;
+}
+
+.blog_right_sidebar .single_sidebar_widget img {
+  width: 100%;
+  border-radius: 10px;
 }
 
 /* line 664, ../../Arafath/CL/December/233. Startup/HTML/scss/_blog.scss */
@@ -6318,7 +6453,7 @@ h6 {
 
 /* line 1126, ../../Arafath/CL/December/233. Startup/HTML/scss/_blog.scss */
 .single-post-area .navigation-top {
-  padding-top: 15px;
+  /* padding-top: 15px; */
   border-top: 1px solid #f0e9ff;
 }
 
@@ -6374,6 +6509,7 @@ h6 {
   padding: 40px 30px;
   background: #fbf9ff;
   margin-top: 50px;
+  border-radius: 10px;
 }
 
 @media (max-width: 600px) {
@@ -6425,7 +6561,7 @@ h6 {
 .single-post-area .navigation-area {
   border-bottom: 1px solid #eee;
   padding-bottom: 30px;
-  margin-top: 55px;
+  padding-top: 30px;
 }
 
 /* line 1230, ../../Arafath/CL/December/233. Startup/HTML/scss/_blog.scss */
@@ -6446,8 +6582,21 @@ h6 {
 
 /* line 1243, ../../Arafath/CL/December/233. Startup/HTML/scss/_blog.scss */
 .single-post-area .navigation-area .nav-left .thumb {
+  display: flex;
+  height: 60px;
+  width: 60px;
   margin-right: 20px;
-  background: #000;
+  background: #5388b49a !important;
+  border-radius: 1000px;
+  align-content: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.single-post-area .navigation-area .nav-left .thumb i {
+  margin: 0 auto;
+  font-size: 30px;
+  color: white;
 }
 
 /* line 1247, ../../Arafath/CL/December/233. Startup/HTML/scss/_blog.scss */
@@ -6466,12 +6615,12 @@ h6 {
 
 /* line 1259, ../../Arafath/CL/December/233. Startup/HTML/scss/_blog.scss */
 .single-post-area .navigation-area .nav-left:hover .lnr {
-  opacity: 1;
+  /* opacity: 1; */
 }
 
 /* line 1264, ../../Arafath/CL/December/233. Startup/HTML/scss/_blog.scss */
 .single-post-area .navigation-area .nav-left:hover .thumb img {
-  opacity: .5;
+  /* opacity: .5; */
 }
 
 @media (max-width: 767px) {
@@ -6513,13 +6662,17 @@ h6 {
 
 /* line 1299, ../../Arafath/CL/December/233. Startup/HTML/scss/_blog.scss */
 .single-post-area .navigation-area .nav-right:hover .thumb img {
-  opacity: .5;
+  opacity: 0.5;
 }
 
 @media (max-width: 991px) {
   /* line 1307, ../../Arafath/CL/December/233. Startup/HTML/scss/_blog.scss */
   .single-post-area .sidebar-widgets {
     padding-bottom: 0px;
+  }
+
+  .blog_right_sidebar {
+    display: none;
   }
 }
 
@@ -7010,8 +7163,8 @@ h6 {
   width: 100%; /* Full width */
   height: 100%; /* Full height */
   overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
 }
 
 /* Modal Content */
@@ -7022,22 +7175,21 @@ h6 {
   padding: 0;
   border: 1px solid #888;
   width: 80%;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   -webkit-animation-name: animatetop;
   -webkit-animation-duration: 0.4s;
   animation-name: animatetop;
-  animation-duration: 0.4s
+  animation-duration: 0.4s;
 }
 
 .modal-header {
   padding: 2px 16px;
-  background-image: linear-gradient(to right, #026699 , white);
+  background-image: linear-gradient(to right, #026699, white);
   color: white;
 }
 
-.modal-body {padding: 2px 16px;}
-
-
-
+.modal-body {
+  padding: 2px 16px;
+}
 
 /*# sourceMappingURL=style.css.map */
