@@ -218,6 +218,7 @@ h3 {
   position: absolute;
   content: "";
   background-color: #cfcfcf;
+  /* background: url(contact_background.jpg); */
   top: 0;
   left: 0;
   width: 100%;
