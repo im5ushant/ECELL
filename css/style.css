@@ -2613,7 +2613,7 @@ h3 {
 
 /* line 2, ../../Arafath/CL/December/233. Startup/HTML/scss/_tesmonial.scss */
 .testimonial_area {
-  padding: 160px 0;
+  padding: 80px 0;
   background-image: url(../img/dots.jpg);
   background-repeat: repeat;
   position: relative;
@@ -2642,6 +2642,7 @@ h3 {
 
 /* line 24, ../../Arafath/CL/December/233. Startup/HTML/scss/_tesmonial.scss */
 .testimonial_area .single_testmonial p {
+  padding: 0 50px ;
   color: #777777;
   font-weight: 400;
   font-size: 18px;
@@ -7193,4 +7194,7 @@ h6 {
   padding: 2px 16px;
 }
 
+.startups{
+  font-size: 3em ;
+}
 /*# sourceMappingURL=style.css.map */
