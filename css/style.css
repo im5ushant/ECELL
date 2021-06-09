@@ -218,6 +218,7 @@ h3 {
   position: absolute;
   content: "";
   background-color: #cfcfcf;
+  /* background: url(contact_background.jpg); */
   top: 0;
   left: 0;
   width: 100%;
@@ -1250,7 +1251,7 @@ h3 {
 
 /* line 4, ../../Arafath/CL/December/233. Startup/HTML/scss/_slider.scss */
 .slider_bg_2 {
-  background-image: url(../img/banner/banner2.png);
+  background-image: url(../img/contact_background1.jpg);
 }
 
 /* line 9, ../../Arafath/CL/December/233. Startup/HTML/scss/_slider.scss */
@@ -2612,7 +2613,7 @@ h3 {
 
 /* line 2, ../../Arafath/CL/December/233. Startup/HTML/scss/_tesmonial.scss */
 .testimonial_area {
-  padding: 160px 0;
+  padding: 80px 0;
   background-image: url(../img/dots.jpg);
   background-repeat: repeat;
   position: relative;
@@ -2641,6 +2642,7 @@ h3 {
 
 /* line 24, ../../Arafath/CL/December/233. Startup/HTML/scss/_tesmonial.scss */
 .testimonial_area .single_testmonial p {
+  padding: 0 50px ;
   color: #777777;
   font-weight: 400;
   font-size: 18px;
@@ -7192,4 +7194,7 @@ h6 {
   padding: 2px 16px;
 }
 
+.startups{
+  font-size: 3em ;
+}
 /*# sourceMappingURL=style.css.map */
